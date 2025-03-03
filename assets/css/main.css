@@ -2036,7 +2036,7 @@ input, select, textarea {
 
 		.wrapper.style4 {
 			background-color: lightgray;
-			color: #999;
+			color: white;
 			text-shadow: -1px -1px 0px #181818;
 		}
 
@@ -2058,9 +2058,9 @@ input, select, textarea {
 				.wrapper.style4 form textarea:focus {
 					background: #252525;
 				}
-				input::placeholder,textarea::placeholder{
+				.wrapper.style4 form input::placeholder, textarea::placeholder{
 					color: white;
-					opacity:1;
+					font-weight: bold;
 				}
 
 /* Nav */
